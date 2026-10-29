@@ -1,0 +1,707 @@
+# FINAL MASTER PROMPT — Premium Personal Brand Website Transformation
+## For Google AI Studio | Principal-Level Frontend Engineering + Creative Direction
+
+### ROLE AND EXPECTATION
+
+Act as a principal frontend engineer, senior product designer, creative director, interaction designer, conversion optimization specialist, and web performance engineer with 25+ years of equivalent professional expertise.
+
+You are responsible for transforming my existing personal website into a distinctive, premium, commercially sophisticated personal-brand experience.
+
+This is the final comprehensive refinement. I do not want another design suggestion, a theoretical audit, or a superficial collection of CSS adjustments. I want you to inspect the existing project, identify weaknesses, implement the improvements directly, test the results, and deliver the strongest practical version of the website.
+
+Think like someone designing a website for a high-value business development professional who communicates with business owners, decision-makers, executives, and potential strategic partners.
+
+The website must communicate credibility, clarity, commercial awareness, confidence, and professionalism within seconds.
+
+**The result must look intentionally art-directed and engineered by an experienced team—not generated from a generic AI website template.**
+
+---
+
+# 1. FIRST: AUDIT THE EXISTING PROJECT BEFORE EDITING
+
+Before changing anything, inspect the complete existing codebase.
+
+Understand:
+- The current framework and project structure.
+- All routes and pages.
+- The homepage hero and its current animation.
+- The current mobile layout and navigation.
+- Existing CTAs and their destinations.
+- The About page and personal-photo implementation.
+- Typography, colors, spacing, and reusable components.
+- Existing animations and dependencies.
+- Contact form implementation and integrations.
+- Responsive breakpoints.
+- Current accessibility and performance issues.
+
+Identify what is genuinely weak, what should be retained, and what needs to be replaced.
+
+Do not blindly preserve poor design decisions. Equally, do not rebuild functioning features unnecessarily.
+
+**Implement the final improvements directly in the existing project. Do not stop after producing an audit.**
+
+# 2. PRIMARY PROBLEM: REPLACE THE AI-LOOKING HOMEPAGE ANIMATION
+
+The current homepage animation looks artificial, generic, and obviously AI-generated. Replace it entirely with a new, deliberately designed visualization.
+
+Do not simply recolor the existing animation, add more effects, or make the same composition more complicated.
+
+The goal is to create a visual that feels like a bespoke piece of digital art commissioned for a serious sales, marketing, and business development professional.
+
+## Creative direction: “Commercial Momentum”
+
+Create an original visualization inspired by the real-world process of turning scattered business opportunities into structured commercial progress.
+
+The visualization should communicate:
+- Opportunity identification.
+- Strategic connections.
+- Relationships and networks.
+- Direction and forward movement.
+- Business expansion.
+- Focused execution.
+- Increasing momentum.
+
+It should be visually meaningful without relying on literal stock imagery or obvious business clip art.
+
+## Recommended visual concept
+
+Explore an editorial, architectural composition built around a carefully constructed field of geometric structures, directional paths, and interconnected points.
+
+Imagine a refined composition containing:
+- A strong visual anchor that establishes direction.
+- A small number of carefully positioned geometric structures.
+- Thin, deliberate connection paths that represent relationships.
+- Selected nodes where paths meet or opportunities converge.
+- Subtle changes in scale, spacing, and position that create a sense of progression.
+- A restrained use of the site's existing accent color.
+- Negative space that allows the composition to breathe.
+
+The final composition must have a clear visual hierarchy. Every element should have a reason to exist.
+
+The illustration should feel closer to an art-directed editorial graphic or a carefully crafted design-system visualization than a standard technology landing-page animation.
+
+This is creative direction, not permission to create a random assortment of shapes. Study the existing site's actual typography, palette, layout, and brand positioning before deciding on the final composition.
+
+### Avoid these visual clichés completely
+
+- Random floating circles.
+- Glowing dots and neon lines.
+- Purple-to-blue gradients.
+- Decorative blobs.
+- Excessive particle effects.
+- Generic AI neural-network graphics.
+- Fake dashboards and analytics charts.
+- Floating glass cards.
+- Shiny 3D objects without a clear purpose.
+- Excessive perspective grids.
+- Random animated numbers.
+- Fake business metrics.
+- Overly complicated networks of lines.
+- Stock photographs of businessmen.
+- Visuals that could belong to any AI, SaaS, crypto, or software company.
+
+Do not add effects simply because they look technologically impressive.
+
+## Composition and art direction
+
+The visualization must:
+- Have a clear focal point.
+- Use deliberate proportions and spacing.
+- Have consistent stroke weights and geometry.
+- Integrate naturally with the surrounding typography.
+- Look polished at both large and small sizes.
+- Complement the headline rather than compete with it.
+- Work against the actual website background.
+- Feel restrained, mature, and distinctive.
+
+Avoid symmetry if it produces a generic result. Use asymmetry only when it improves balance and direction.
+
+Do not make the illustration larger or more visually dominant than the professional message.
+
+## Animation direction
+
+The motion should communicate a coherent visual story.
+
+For example:
+1. The main structure becomes visible.
+2. A small number of directional paths are revealed.
+3. Selected connection points appear.
+4. The completed composition settles into a stable state.
+5. Optional ambient movement remains extremely subtle.
+
+Do not animate every element independently.
+
+Use a short, intentional entrance sequence rather than continuous spectacle. The visualization should remain attractive and legible when completely static.
+
+The animation must never delay the appearance of the headline or CTA.
+
+### Technical implementation
+
+Use the most suitable lightweight technology already supported by the project, preferably SVG and CSS where sufficient.
+
+Use canvas or an existing animation library only if there is a genuine technical or visual reason.
+
+Requirements:
+- No unnecessary dependencies.
+- No heavy real-time 3D rendering.
+- No continuous high-frequency animation without a clear benefit.
+- No layout shifts.
+- No excessive GPU usage.
+- No animation that blocks interaction.
+- Support `prefers-reduced-motion`.
+- Provide a polished static fallback.
+- Ensure the artwork does not overflow its container.
+- Ensure the illustration remains crisp on high-density displays.
+- Keep the visual component separate from the personal-photo component.
+
+**Important:** Do not claim the animation is custom merely because the shapes are coded manually. The quality must come from the composition, proportions, restraint, typography, and coherent visual concept.
+
+# 3. PRIMARY PROBLEM: MOBILE HERO AND CTA VISIBILITY
+
+The mobile experience currently makes the user work too hard to understand the website or contact me.
+
+Fix this as a top priority.
+
+A visitor arriving on a mobile device should immediately understand:
+1. Who I am professionally.
+2. What I focus on.
+3. How to contact me.
+
+They must not need to scroll to find the primary contact action or open another page to discover how to reach me.
+
+## Mobile first-screen requirements
+
+On common mobile viewport sizes, especially approximately 360–390 CSS pixels wide, design the initial viewport intentionally.
+
+The initial view must contain:
+- My professional headline.
+- A concise supporting statement.
+- A visible primary contact CTA.
+- A visible secondary navigation or expertise CTA when practical.
+- A clear indication that the page can be explored further, if needed.
+
+The headline must not consume the entire screen.
+
+Use deliberate line breaks, responsive font sizing, sensible line height, and controlled text width.
+
+Avoid oversized typography that pushes the CTA below the fold.
+
+The primary CTA must be visible without scrolling on common mobile screens. Account for browser chrome and safe areas rather than designing solely for an idealized viewport.
+
+If the complete visual composition cannot fit without compromising readability, simplify or reduce the visual on mobile. Do not sacrifice the contact CTA to preserve decorative artwork.
+
+## Mobile hero hierarchy
+
+Use this priority:
+
+1. Professional positioning.
+2. Headline.
+3. Short supporting copy.
+4. Primary CTA.
+5. Secondary CTA, if space permits.
+6. Supporting visual.
+
+The visual must not take over the top of the screen and force the user to scroll past an illustration before reaching the CTA.
+
+On mobile, use a simplified version of the new hero artwork if necessary. Preserve the concept, not every decorative detail.
+
+## Primary CTA
+
+Use the exact label:
+
+**Discuss a Business Opportunity**
+
+This must be a real, functional contact action.
+
+Preferred behavior:
+- Open the Contact page or a clearly implemented contact interaction.
+- Make the available email and phone actions immediately accessible.
+- Do not route the user through unnecessary intermediate pages.
+
+## Secondary CTA
+
+Use:
+
+**Explore My Expertise**
+
+This should lead directly to the Expertise page or its appropriate section.
+
+The primary and secondary CTAs must have clearly differentiated visual emphasis.
+
+## CTA styling
+
+Create a professional, high-contrast primary button with:
+- Comfortable touch dimensions.
+- Clear text.
+- An intentional hover state on devices that support hover.
+- A visible keyboard focus state.
+- A restrained transition.
+- A sufficiently large touch target, preferably around 44–48 CSS pixels in height.
+
+Do not use glowing buttons, exaggerated pill shapes, or excessive animated arrows.
+
+## Mobile verification
+
+Test the homepage at:
+- 320 CSS pixels wide.
+- 360 CSS pixels wide.
+- 375 CSS pixels wide.
+- 390 CSS pixels wide.
+- 430 CSS pixels wide.
+
+Check common mobile heights as well as widths.
+
+At each relevant viewport, verify that the headline, supporting copy, and primary CTA fit into the first screen whenever reasonably possible.
+
+Do not rely on CSS alone without checking the actual rendered layout.
+
+# 4. ADD A PROFESSIONAL MOBILE CONTACT SHORTCUT
+
+Evaluate whether a persistent mobile contact shortcut would improve usability.
+
+If appropriate, implement a restrained, fixed bottom contact bar that makes the primary contact action available while the user scrolls.
+
+Potential treatment:
+- A compact, high-contrast button labeled “Discuss an Opportunity.”
+- A subtle background that remains readable over page content.
+- Respect for iOS and Android safe-area insets.
+- Enough bottom padding so it does not cover page content or footer links.
+- Appropriate visibility on mobile and removal or adaptation on desktop.
+
+Do not implement an oversized floating widget or a generic chat bubble.
+
+The persistent shortcut must:
+- Never cover form fields or essential content.
+- Not overlap other fixed elements.
+- Disappear or adapt where it would interfere with a form or other interaction.
+- Remain keyboard-accessible where applicable.
+- Respect reduced-motion preferences.
+- Avoid unnecessary movement or bouncing.
+
+Compare the fixed contact bar with a simpler mobile header CTA. Choose the cleaner solution based on the existing layout.
+
+Do not add both a prominent sticky header CTA and a prominent bottom CTA if that creates duplication or visual clutter.
+
+# 5. REDESIGN THE MOBILE HEADER AND NAVIGATION
+
+The mobile navigation should feel like part of a premium product, not a desktop navigation squeezed into a narrow screen.
+
+Requirements:
+- A clear, compact brand/name treatment.
+- A recognizable menu control if a collapsible menu is necessary.
+- A visible contact shortcut when it fits without crowding.
+- Correct menu open and close behavior.
+- A clear active-page state.
+- Adequate touch targets.
+- Keyboard support.
+- Accessible labels and appropriate focus management.
+- No horizontal overflow.
+- No accidental menu closure when users interact with its contents.
+- No obstructive full-screen navigation unless the design genuinely benefits from it.
+
+Keep the navigation labels short and meaningful.
+
+Do not force users to open the menu merely to find the primary way to contact me.
+
+When the menu is open, make it obvious how to close it and how to navigate.
+
+# 6. MAKE THE DESKTOP EXPERIENCE EQUALLY STRONG
+
+Do not solve mobile problems by degrading the desktop experience.
+
+On desktop:
+- Keep the hero balanced between text and artwork.
+- Use a deliberate grid and consistent alignment.
+- Ensure the visual complements the headline.
+- Preserve readable line lengths.
+- Make CTAs easy to identify.
+- Avoid excessive empty space that makes the page feel unfinished.
+- Avoid decorative elements without a clear purpose.
+
+The desktop layout should feel confident, refined, and art-directed.
+
+The mobile and desktop layouts should share one visual identity while using different compositions where necessary.
+
+# 7. PROFESSIONAL POSITIONING AND CONTENT
+
+The website represents me as a sales, marketing, business development, and commercial growth professional.
+
+Use the following homepage content as the approved starting point.
+
+### Headline
+
+**Turning Business Opportunities Into Growth.**
+
+### Supporting statement
+
+“I work at the intersection of sales, marketing, and business development—identifying opportunities, building meaningful relationships, and helping businesses move forward.”
+
+### Primary CTA
+
+**Discuss a Business Opportunity**
+
+### Secondary CTA
+
+**Explore My Expertise**
+
+### Core expertise
+
+- Sales Strategy & Deal Closure
+- Business Development & Market Expansion
+- B2B Client Acquisition & Relationship Management
+- Lead Generation & Strategic Prospecting
+- Marketing Strategy & Brand Positioning
+- Market Research & Competitive Analysis
+
+Improve wording only where necessary for clarity, consistency, or fit. Do not replace strong existing copy with generic AI marketing language.
+
+## Non-negotiable content restrictions
+
+Do not include:
+- Education or academic qualifications.
+- Degrees or educational institutions.
+- Employment history or previous employers.
+- Job titles associated with past or current employment.
+- Employment dates or career timelines.
+- A CV/resume download.
+- Invented clients or testimonials.
+- Fabricated awards, certifications, revenue figures, or performance statistics.
+- Fake project case studies.
+- Unsupported claims of industry leadership or guaranteed results.
+
+Do not position me primarily as a software developer.
+
+The website should establish credibility through clear professional positioning, sound commercial thinking, a strong design, and practical communication—not fabricated social proof.
+
+# 8. ABOUT PAGE AND PERSONAL PHOTOGRAPH
+
+The About page currently contains an image that must be replaced by my actual personal photograph.
+
+Requirements:
+- Remove the existing About page image.
+- Use the real photograph I supply.
+- Do not generate an AI portrait.
+- Do not use a stock portrait or another person's photograph.
+- Do not change my facial features or identity.
+- Do not apply artificial facial transformations or stylized filters.
+- Use professional cropping and a suitable aspect ratio.
+- Make the layout responsive and natural on mobile.
+- Preserve the visual consistency of the site.
+
+If my photograph is not available in the project yet, create the component and identify the exact asset path where I should place it.
+
+Do not create a fake replacement.
+
+The About page must remain focused on professional perspective, business thinking, relationships, and commercial opportunities.
+
+# 9. REFINE THE COMPLETE VISUAL SYSTEM
+
+Review the website as one coherent experience rather than a collection of isolated pages.
+
+## Color
+
+Use the existing brand palette if it is already strong. Otherwise, refine it around:
+- Warm white or off-white.
+- Deep charcoal or near-black.
+- One restrained navy, blue, or sophisticated green accent.
+- Neutral secondary text and subtle borders.
+
+Avoid excessive color changes across sections.
+
+## Typography
+
+Use a refined, consistent typographic hierarchy.
+
+Pay attention to:
+- Headline scale.
+- Line breaks.
+- Body-text readability.
+- Paragraph width.
+- Font weights.
+- Letter spacing.
+- Navigation labels.
+- Button typography.
+
+Do not use oversized headings merely to make the page look dramatic.
+
+## Layout
+
+Use:
+- Consistent containers.
+- Deliberate alignment.
+- Generous but controlled whitespace.
+- Strong visual hierarchy.
+- Thoughtful section transitions.
+- A coherent spacing system.
+- Carefully chosen asymmetry where appropriate.
+
+Avoid:
+- Excessive rounded cards.
+- Repetitive three-column card layouts everywhere.
+- Decorative blobs.
+- Excessive glassmorphism.
+- Generic gradient backgrounds.
+- Random icon collections.
+- Unnecessary badges.
+- Repetitive section designs.
+- Excessive motion.
+- Huge blank areas without a compositional purpose.
+
+Every visual element must contribute to the experience.
+
+# 10. IMPROVE THE REST OF THE WEBSITE
+
+Do not focus only on the homepage.
+
+Inspect and refine every existing page while preserving useful functionality.
+
+## About page
+
+Ensure the writing is personal, credible, concise, and professionally relevant. Avoid generic autobiographical filler.
+
+## Expertise page
+
+Present the six core areas in a refined layout. Explain each area clearly without making unsupported claims. Use meaningful visual differentiation rather than oversized cards.
+
+## Approach page
+
+Use a concise commercial framework such as:
+
+1. Understand the business and its market.
+2. Identify relevant opportunities.
+3. Build relationships and communicate value.
+4. Execute structured sales and marketing activities.
+5. Review feedback and improve the approach.
+
+Present this as a working philosophy, not a guaranteed formula.
+
+## Contact page
+
+Use the following details exactly:
+
+Email: zprofessor2077@gmail.com
+
+Phone: +977 9749410075
+
+Location: Kathmandu, Nepal
+
+Use this email address for the website's contact details and contact-related implementation unless I explicitly specify otherwise.
+
+The contact page should make it easy to:
+- Send an email.
+- Initiate a phone call.
+- Submit a contact form if a genuine submission mechanism exists.
+
+Use working `mailto:` and `tel:` links.
+
+Do not create a form that pretends to submit messages when there is no backend or email integration. If external configuration is needed, implement a clear integration point and an honest fallback.
+
+Make contact actions easy to find on mobile, including when users are already on the Contact page.
+
+# 11. CONVERSION AND USABILITY REVIEW
+
+Act as a conversion optimization specialist.
+
+Review the website from the perspective of a first-time visitor who has only a few seconds to decide whether to contact me.
+
+Ask:
+- Is my professional focus immediately clear?
+- Is the headline easy to understand?
+- Is the supporting text concise?
+- Can visitors contact me without searching?
+- Are the CTAs visible and specific?
+- Is the design trustworthy?
+- Does the page feel cluttered?
+- Does any animation delay access to useful information?
+- Are there unnecessary clicks?
+- Is the mobile experience easier than the existing version?
+- Does each section have a clear purpose?
+
+Remove friction rather than adding more decorative elements.
+
+Do not use manipulative popups, artificial urgency, fake notifications, or misleading conversion tactics.
+
+## CTA consistency
+
+Use a consistent primary action across the site:
+
+**Discuss a Business Opportunity**
+
+Secondary actions may vary according to context, but avoid inventing many competing CTA labels.
+
+Every CTA must have a working destination or action.
+
+# 12. PERFORMANCE AND ACCESSIBILITY
+
+Treat performance and accessibility as part of the design—not optional finishing work.
+
+## Performance
+
+- Avoid unnecessary dependencies.
+- Optimize image sizes and formats.
+- Avoid layout shifts.
+- Keep the hero visual lightweight.
+- Limit JavaScript-driven animation where CSS or SVG is sufficient.
+- Avoid unnecessary re-renders.
+- Load below-the-fold content appropriately.
+- Keep interactions responsive.
+- Do not introduce heavy effects that perform poorly on mobile devices.
+
+## Accessibility
+
+- Use semantic HTML.
+- Provide meaningful image alt text.
+- Label form fields.
+- Maintain sufficient color contrast.
+- Provide visible keyboard focus.
+- Ensure keyboard-accessible navigation.
+- Respect reduced-motion preferences.
+- Ensure the CTA is accessible to screen readers.
+- Do not communicate essential information through color or animation alone.
+
+Do not sacrifice usability to achieve a visual effect.
+
+# 13. TECHNICAL ENGINEERING REQUIREMENTS
+
+Preserve the existing framework and project architecture unless a change is necessary.
+
+Requirements:
+- Implement changes in the actual project files.
+- Reuse components where appropriate.
+- Create reusable components for the hero artwork, CTA, navigation, and shared layout when beneficial.
+- Maintain a coherent design-token system.
+- Avoid duplicated styles and unnecessary complexity.
+- Remove obsolete animation code and unused assets associated with the replaced visual.
+- Preserve working features unrelated to these changes.
+- Verify all internal routes.
+- Verify all contact links.
+- Verify form behavior.
+- Fix obvious console errors and broken assets.
+- Do not leave placeholder buttons or dead links.
+- Do not expose secrets or API keys.
+- Do not claim that an integration works unless it has actually been tested.
+
+Do not change the technology stack just to follow a personal preference. Choose the simplest robust implementation that achieves the desired quality.
+
+# 14. MANDATORY VISUAL AND FUNCTIONAL TESTING
+
+Do not finish immediately after editing the code.
+
+Run the project using the available environment and inspect the actual rendered result.
+
+If browser or preview access is available, use it to verify the visual design and interactions. If automated browser testing is available, use it for the relevant checks.
+
+## Desktop checks
+
+Test at approximately:
+- 1280 × 800.
+- 1440 × 900.
+- 1920 × 1080.
+
+Check:
+- Hero composition.
+- Headline wrapping.
+- CTA visibility.
+- Artwork proportions.
+- Header spacing.
+- Section transitions.
+- Footer layout.
+- Contact interactions.
+
+## Mobile checks
+
+Test at approximately:
+- 320 × 640.
+- 360 × 800.
+- 375 × 812.
+- 390 × 844.
+- 430 × 932.
+
+Check:
+- Headline readability.
+- Supporting-text length.
+- Primary CTA visibility on initial load.
+- Secondary CTA visibility where practical.
+- Artwork size and position.
+- Mobile navigation.
+- Fixed contact shortcut, if implemented.
+- Bottom safe-area spacing.
+- Contact-page usability.
+- Horizontal overflow.
+- Overlapping elements.
+- Text clipping.
+- Footer accessibility.
+
+Test both initial page load and the scrolled state.
+
+## Interaction checks
+
+Verify:
+- Primary CTA opens the correct contact destination.
+- Secondary CTA opens the correct expertise destination.
+- Navigation links work.
+- Mobile menu opens and closes correctly.
+- Email opens the correct address.
+- Phone links use the correct number.
+- Contact form validation works.
+- Contact form submission provides honest feedback.
+- No decorative element intercepts clicks.
+- Keyboard navigation and focus states work.
+
+## Motion checks
+
+Verify:
+- The new artwork looks polished when static.
+- The animation has a clear beginning and stable end state.
+- Motion does not compete with the headline.
+- The CTA remains visible during animation.
+- Reduced-motion preferences are respected.
+- The mobile version does not create excessive movement or performance problems.
+
+If a browser cannot be launched or a particular test cannot be performed, state that limitation honestly. Do not invent screenshots, test results, or successful checks.
+
+# 15. FINAL ACCEPTANCE CRITERIA
+
+The work is not complete until these conditions are met:
+
+1. The old AI-looking homepage animation has been replaced with a clearly different, art-directed visualization.
+2. The new visual has a coherent concept, deliberate composition, and restrained motion.
+3. The homepage communicates my professional positioning immediately.
+4. The primary contact CTA is visible on the initial mobile screen at common viewport sizes whenever reasonably possible.
+5. Visitors can find and use contact actions without unnecessary navigation.
+6. Mobile navigation is polished, accessible, and functional.
+7. The desktop design remains premium and balanced.
+8. The About page uses my actual photograph when supplied and never substitutes a generated or stock portrait.
+9. All education-related content and employment-history sections remain absent.
+10. No fabricated achievements, clients, testimonials, or performance statistics are present.
+11. Every CTA, link, route, and implemented form behaves correctly.
+12. The website is responsive, performant, accessible, and visually consistent.
+13. No unrelated working functionality has been broken.
+14. The project has been tested to the extent permitted by the available environment.
+
+# 16. FINAL EXECUTION INSTRUCTIONS
+
+Proceed in this order:
+
+1. Inspect the existing codebase and rendered website.
+2. Identify the most important design and usability weaknesses.
+3. Replace the homepage animation with the new bespoke visualization.
+4. Rebuild the mobile hero hierarchy so the primary CTA is immediately visible.
+5. Refine mobile navigation and persistent contact access where appropriate.
+6. Improve the remaining pages and shared visual system.
+7. Verify personal-photo handling and professional content restrictions.
+8. Test the responsive layouts and actual interactions.
+9. Fix the issues discovered during testing.
+10. Provide a concise final report listing actual changes, files affected, tests performed, and any remaining setup requirements.
+
+Do not stop after step two. Do not merely return code snippets or a design plan. Make the changes directly in the existing project.
+
+Do not rebuild unrelated sections simply to make the change appear larger. Prioritize meaningful improvement over the quantity of code changed.
+
+**FINAL CREATIVE STANDARD:** The website should feel like the personal brand of a serious commercial professional, designed with the restraint of a premium editorial studio and implemented with the rigor of an experienced engineering team.
+
+The homepage must be memorable because of its composition and clarity—not because it contains more animation.
+
+The mobile experience must convert because the next step is obvious—not because the user is forced to search for it.
+
+Deliver the strongest finished version you can, verify it, and report honestly.
